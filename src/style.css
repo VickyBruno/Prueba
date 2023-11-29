@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(120, 234, 86);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-body {
+    background-color: red;
+    color:rgb(236, 121, 236);
+}
+
+.card-title, .card-text {
+    background-color: white;
+}
+
+.card  {
+    background-color: grey;
+    margin: 0.5rem;
+    
+    
+    
+}
+
+.card img {
+    height: 250px;
+}
+
+.contenedor-card {
+    border: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Section contador*/
+
+.sectionContador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonRestar, .botonSumar{
+    background-color: rgb(177, 119, 230);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    margin:auto 1.5rem;
+    font-weight: bolder;
+}
+
+.resul {
+    font-size: 300%;
+}
+h1{
+    margin: 2rem 0 1rem;
+    width: 100%;
+    
+
+}
+

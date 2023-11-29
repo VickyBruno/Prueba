@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Usuario from './componentes/Usuario';
+
+import './style.css';
+import imagenes from './img/imagenes';
+import Contador from './componentes/Contador';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contador valor={0}/>
+      
+      <div className='contenedor-card'>
+        <Usuario picture={imagenes.img1} nombre="Maria" cargo="Gerente General" conoceme="CV de Maria"/>
+        <Usuario picture={imagenes.img2} nombre="Luis" cargo="Sub-gerente General" conoceme="CV de Luis"/>
+        <Usuario picture={imagenes.img3} nombre="Pedro" cargo="Gerente geral" conoceme="CV de Pedro"/>
+      </div>
     </div>
   );
 }
